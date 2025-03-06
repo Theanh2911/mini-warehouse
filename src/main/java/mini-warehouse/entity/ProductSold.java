@@ -16,7 +16,7 @@ public class ProductSold {
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @OnDelete(action = OnDeleteAction.CASCADE)
     @JoinColumn(name = "product_id", nullable = false)
-    private Product product;
+    private week1.internJava.entity.Product product;
 
     @Column(name = "quantity_out", nullable = false)
     private Integer quantityOut;
@@ -48,11 +48,11 @@ public class ProductSold {
         this.quantityOut = quantityOut;
     }
 
-    public Product getProduct() {
+    public week1.internJava.entity.Product getProduct() {
         return product;
     }
 
-    public void setProduct(Product product) {
+    public void setProduct(week1.internJava.entity.Product product) {
         this.product = product;
     }
 

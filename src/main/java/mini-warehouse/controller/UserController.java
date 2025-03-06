@@ -7,7 +7,6 @@ import week1.internJava.entity.User;
 
 import week1.internJava.service.UserService;
 
-import java.util.List;
 import java.util.Optional;
 
 @RestController

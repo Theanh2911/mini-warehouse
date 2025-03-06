@@ -24,7 +24,7 @@ public class Product {
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "modified_by", nullable = false)
-    private User modifiedBy;
+    private week1.internJava.entity.User modifiedBy;
 
     @Column(name = "position", nullable = false, length = 2)
     private String position;
@@ -48,11 +48,11 @@ public class Product {
         this.position = position;
     }
 
-    public User getModifiedBy() {
+    public week1.internJava.entity.User getModifiedBy() {
         return modifiedBy;
     }
 
-    public void setModifiedBy(User modifiedBy) {
+    public void setModifiedBy(week1.internJava.entity.User modifiedBy) {
         this.modifiedBy = modifiedBy;
     }
 

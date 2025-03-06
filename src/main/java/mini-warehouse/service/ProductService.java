@@ -9,7 +9,6 @@ import week1.internJava.repository.ProductRepository;
 import week1.internJava.repository.ProductSoldRepository;
 
 import java.time.Instant;
-import java.time.LocalDate;
 
 @Service
 public class ProductService {
